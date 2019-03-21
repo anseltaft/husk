@@ -1,2 +1,2 @@
-# husk
-A rapid development, responsive HTML email framework 
+# Husk
+A rapid development, modular, and responsive HTML email framework 

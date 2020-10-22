@@ -13,7 +13,7 @@ A rapid development, modular, and responsive HTML email framework.
 * Footer module
 
 ## Bonus goodness
-* Fixes for iOS, Gmail, Yahoo Mail, and Outlook baked in
+* Baked in fixes for iOS, Android, Gmail, Yahoo Mail, and Outlook
 * Well documented, formated code
 * Social share code in `<head>`
 

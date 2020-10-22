@@ -81,6 +81,7 @@
 			.button:hover {
 				border: 1px solid #D81C71 !important;
 				background-color: #ffffff !important;
+				box-shadow: 0 8px 10px -6px rgba(0,0,0,0.60);
 				transition: background 250ms;
 			}
 
@@ -127,6 +128,13 @@
 
 			.mobileshow {
 				display: none;
+			}
+
+			@media screen and (max-width: 620px) {
+				.container {
+					width: 100% !important;
+					max-width: 600px !important;
+				}
 			}
 
 			@media screen and (max-width: 599px) {
@@ -234,13 +242,13 @@
 				<td class="" align="center" valign="top" style="">
 
 		  			<!-- Content table, width: 600px -->
-					<table class="container" align="center" border="0" cellpadding="0" cellspacing="0" style="width: 100%; max-width: 600px; background-color: #ffffff;">
+					<table class="container" align="center" border="0" cellpadding="0" cellspacing="0" style="width: 600px; margin: 0 auto; background-color: #ffffff;">
 
 						<!-- Logo module -->
 						<tr>
 							<td class="" align="center" style="padding: 25px 20px;">
 								<a href="https://github.com/anseltaft/husk" target="_blank">
-									<img src="images/logo.png" width="250" height="84" alt="Husk" style="display: block; margin: 0 auto; border: 0;">
+									<img src="https://raw.githubusercontent.com/anseltaft/husk/master/images/logo.png" width="250" height="84" alt="Husk" style="display: block; margin: 0 auto; border: 0;">
 								</a>
 							</td>
 						</tr>
@@ -250,7 +258,7 @@
 						<tr>
 							<td class="" align="center" style="">
 								<a href="https://github.com/anseltaft/husk" target="_blank">
-									<img src="images/hero.jpg" width="600" height="360" alt="What? A swallow carrying a coconut?" style="display: block; min-width: 100%; border: 0;">
+									<img src="https://raw.githubusercontent.com/anseltaft/husk/master/images/hero.jpg" width="600" height="360" alt="What? A swallow carrying a coconut?" style="display: block; min-width: 100%; border: 0;">
 								</a>
 							</td>
 						</tr>
@@ -266,8 +274,8 @@
 							</style>
 						<![endif]-->
 						<tr>
-							<td class="center" align="left" style="padding: 20px 20px 40px; font-size: 15px; line-height: 1.75; mso-line-height-rule: exactly;">
-								<span class="fallback-font-stack" style="display: block; color: #D81C71; font-family: 'Kalam', 'Brush Script MT', cursive; font-size: 48px; font-weight: bold; text-shadow: 0px 0px 0px rgba(0,0,0,0.25);">Whoa there!</span>
+							<td class="" align="left" style="padding: 20px 20px 40px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; line-height: 1.75; mso-line-height-rule: exactly;">
+								<span class="fallback-font-stack center" style="display: block; color: #D81C71; font-family: 'Kalam', 'Brush Script MT', cursive; font-size: 48px; font-weight: bold; text-shadow: 0px 0px 0px rgba(0,0,0,0.25);">Whoa there!</span>
 								<span style="font-weight: bold;">Soldier: </span>Halt! Who goes there?<br>
 								<span style="font-weight: bold;">Arthur: </span>It is I, Arthur, son of Uther Pendragon, from the castle of Camelot.  King of all Britons, defeator of the Saxons, sovereign of all England!<br>
 								<span style="font-weight: bold;">Soldier: </span>Get away!<br>
@@ -284,7 +292,7 @@
 						<!-- Divider module -->
 						<tr>
 							<td class="" align="center" style="">
-								<img src="images/divider01.jpg" width="600" height="250" alt="" style="display: block; min-width: 100%;">
+								<img src="https://raw.githubusercontent.com/anseltaft/husk/master/images/divider01.jpg" width="600" height="250" alt="" style="display: block; min-width: 100%;">
 							</td>
 						</tr>
 						<!-- Divider module end -->
@@ -310,7 +318,7 @@
 						<!-- Divider module -->
 						<tr>
 							<td class="" align="center" style="">
-								<img src="images/divider02.jpg" width="600" height="250" alt="" style="display: block; min-width: 100%;">
+								<img src="https://raw.githubusercontent.com/anseltaft/husk/master/images/divider02.jpg" width="600" height="250" alt="" style="display: block; min-width: 100%;">
 							</td>
 						</tr>
 						<!-- Divider module end -->
@@ -330,7 +338,7 @@
 								<table class="full-width" align="left" border="0" cellpadding="0" cellspacing="0" style="width: 264px;">
 									<tr>
 										<!-- The column style below must stay as width: 100%; to expand properly in mobile viewports < 600px -->
-										<td class="column" align="left" valign="top" style="width: 100%;">
+										<td class="column" align="left" valign="top" style="width: 100%; font-family: Arial, Helvetica, sans-serif;">
 											<span style="color: #D81C71; font-size: 16px; font-weight: bold;">Two Columns Example:<br>Left column</span>
 											<br><br>
 											Benchmark thinking outside the box prairie dogging root-and-branch review. We've got to manage that low hanging fruit game plan, or race without a finish line can we take this offline, but out of scope.
@@ -343,7 +351,7 @@
 											<td valign="top" style="width: 50%;">
 								<![endif]-->
 
-    							<table class="full-width" align="right" border="0" cellpadding="0" cellspacing="0" style="width: 264px;">
+    							<table class="full-width" align="right" border="0" cellpadding="0" cellspacing="0" style="width: 264px; font-family: Arial, Helvetica, sans-serif;">
 									<tr>
 										<!-- The column style below must stay as width: 100%; to expand properly in mobile viewports < 600px -->
 										<td class="column" align="left" valign="top" style="width: 100%;">
@@ -383,15 +391,15 @@
 										<td class="column" valign="top" style="width: 100%;">
 											<table class="float-image" border="0" cellpadding="0" cellspacing="0" style="">
 												<tr>
-													<td class="" style="padding-bottom: 12px;"><img src="images/knights01.jpg" width="168" height="168" alt="Sir Lancelot the Brave"></td>
+													<td class="" style="padding-bottom: 12px;"><img src="https://raw.githubusercontent.com/anseltaft/husk/master/images/knights01.jpg" width="168" height="168" alt="Sir Lancelot the Brave"></td>
 												</tr>
 											</table>
 											<table class="" border="0" cellpadding="0" cellspacing="0" style="">
 												<tr>
-													<td class="subtitle" style="padding-bottom: 12px; font-size: 16px; font-weight: bold; color: #D81C71;">Sir Lancelot the Brave</td>
+													<td class="subtitle" style="padding-bottom: 12px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #D81C71;">Sir Lancelot the Brave</td>
 												</tr>
 											</table>
-											<div class="" style="font-size: 13px; text-align: left; color: #333333;">
+											<div class="" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; text-align: left; color: #333333;">
 												"She turned me into a newt!"
 												<br><br>
 												--
@@ -412,15 +420,15 @@
 										<td class="column" valign="top" style="width: 100%;">
 											<table class="float-image" border="0" cellpadding="0" cellspacing="0" style="">
 												<tr>
-													<td class="" style="padding-bottom: 12px;"><img src="images/knights02.jpg" width="168" height="168" alt="Sir Robin the Not-Quite-So-Brave-as-Sir-Lancelot"></td>
+													<td class="" style="padding-bottom: 12px;"><img src="https://raw.githubusercontent.com/anseltaft/husk/master/images/knights02.jpg" width="168" height="168" alt="Sir Robin the Not-Quite-So-Brave-as-Sir-Lancelot"></td>
 												</tr>
 											</table>
 											<table class="" border="0" cellpadding="0" cellspacing="0" style="">
 												<tr>
-													<td class="subtitle" style="padding-bottom: 12px; font-size: 16px; font-weight: bold; color: #D81C71;">Sir Robin the Not-Quite-So-Brave-as-Sir-Lancelot</td>
+													<td class="subtitle" style="padding-bottom: 12px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #D81C71;">Sir Robin the Not-Quite-So-Brave-as-Sir-Lancelot</td>
 												</tr>
 											</table>
-											<div class="" style="font-size: 13px; text-align: left; color: #333333;">
+											<div class="" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; text-align: left; color: #333333;">
 												<span style="font-style: italic;">Bravely bold Sir Robin rode forth from Camelot He was not afraid to die, o' brave Sir Robin! He was not at all afraid to be killed in nasty ways, Brave, brave, brave, brave Sir Robin! He was not at not in the least bit scared to be mashed into a pulp Or to have his eyes gouged out, Or his elbows broken; To have his kneecaps split And his body burned away, Or his limbs all hacked and mangled, Brave Sir Robin! His head smashed in, his heart cut out, His liver removed, and his bowels unplugged, His nostrils raped, and his bottom burned off, And his manhood split...</span>
 												<br><br>
 												"Stop! That's enough singing for now."</div>
@@ -439,15 +447,15 @@
 										<td class="column" valign="top" style="width: 100%;">
 											<table class="float-image" border="0" cellpadding="0" cellspacing="0" style="">
 												<tr>
-													<td class="" style="padding-bottom: 12px;"><img src="images/knights03.jpg" width="168" height="168" alt="Sir Bedevere the Wise"></td>
+													<td class="" style="padding-bottom: 12px;"><img src="https://raw.githubusercontent.com/anseltaft/husk/master/images/knights03.jpg" width="168" height="168" alt="Sir Bedevere the Wise"></td>
 												</tr>
 											</table>
 											<table class="" border="0" cellpadding="0" cellspacing="0" style="">
 												<tr>
-													<td class="subtitle" style="padding-bottom: 12px; font-size: 16px; font-weight: bold; color: #D81C71;">Sir Bedevere the Wise</td>
+													<td class="subtitle" style="padding-bottom: 12px; font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-weight: bold; color: #D81C71;">Sir Bedevere the Wise</td>
 												</tr>
 											</table>
-											<div class="" style="font-size: 13px; text-align: left; color: #333333;">
+											<div class="" style="font-family: Arial, Helvetica, sans-serif; font-size: 13px; text-align: left; color: #333333;">
 												"How do you know so much about swallows?"
 												<br><br>
 												--
@@ -473,7 +481,7 @@
 								<table class="mobilehide" align="center" border="0" cellpadding="0" cellspacing="0" style="">
 									<tr>
 										<td class="" align="center" style="">
-											<img src="images/divider03.jpg" width="600" height="250" alt="" style="display: block; min-width: 100%;">
+											<img src="https://raw.githubusercontent.com/anseltaft/husk/master/images/divider03.jpg" width="600" height="250" alt="" style="display: block; min-width: 100%;">
 										</td>
 									</tr>
 								</table>
@@ -481,7 +489,7 @@
 								<table class="mobileshow" align="center" border="0" cellpadding="0" cellspacing="0" style="display: none; width: 0; height: 0; overflow: hidden; float: none; visibility: hidden; border: none;">
 									<tr>
 										<td class="" align="center" style="">
-											<img src="images/divider04.jpg" width="600" height="250" alt="" style="display: block; min-width: 100%;">
+											<img src="https://raw.githubusercontent.com/anseltaft/husk/master/images/divider04.jpg" width="600" height="250" alt="" style="display: block; min-width: 100%;">
 										</td>
 									</tr>
 								</table>
@@ -492,7 +500,7 @@
 
 						<!-- CAN-SPAM text module -->
 						<tr>
-							<td class="" align="center" style="padding: 100px 20px 30px; color: #ffffff; font-size: 12px; background-color: #3B343E;">
+							<td class="" align="center" style="padding: 100px 20px 30px; font-family: Arial, Helvetica, sans-serif; color: #ffffff; font-size: 12px; background-color: #3B343E;">
 								[ View in browser link ]
 								<br><br>                                
                                 [ Unsubscribe block ]

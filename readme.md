@@ -1,7 +1,7 @@
 [![Husk: a modular and responsive HTML email framework](https://raw.githubusercontent.com/anseltaft/husk/master/images/logo.png)](https://github.com/anseltaft/husk)
 ![Husk's hero image](https://raw.githubusercontent.com/anseltaft/husk/master/images/hero.jpg)
 # Husk
-A rapid development, modular, and responsive HTML email framework.
+A modular, responsive HTML email framework for rapid development.
 ## Included Modules:
 * Logo module
 * Hero image module

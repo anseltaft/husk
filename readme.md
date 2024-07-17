@@ -19,7 +19,7 @@ A modular, responsive HTML email framework for rapid development.
 
 ## Planned updates
 * Background image module (issue #3)
-* Unopinionated, vanilla version for rapid development (issue #4)
+~~* Unopinionated, vanilla version for rapid development (issue #4)~~
 * Dark mode support (issue #6)
 
 Many thanks to [Julie Ng](https://julie.io/) for [Antwort](https://github.com/InterNations/antwort) AKA the starting point.

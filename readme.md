@@ -1,3 +1,5 @@
+
+
 [![Husk: a modular and responsive HTML email framework](https://raw.githubusercontent.com/anseltaft/husk/master/images/logo.png)](https://github.com/anseltaft/husk)
 ![Husk's hero image](https://raw.githubusercontent.com/anseltaft/husk/master/images/hero.jpg)
 # Husk
@@ -8,6 +10,7 @@ A modular, responsive HTML email framework for rapid development.
 * Single column module
 * Two columns module
 * Three columns module
+* Divider module
 * Button module
 * Show/Hide module (replacement image on mobile)
 * Footer module
